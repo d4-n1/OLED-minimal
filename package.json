@@ -1,0 +1,22 @@
+{
+  "name": "oled-minimal",
+  "displayName": "OLED Minimal",
+  "description": "A minimal theme designed for OLED screens",
+  "version": "0.0.1",
+  "publisher": "d4-n1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "OLED Minimal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/OLED Minimal-color-theme.json"
+      }
+    ]
+  }
+}
