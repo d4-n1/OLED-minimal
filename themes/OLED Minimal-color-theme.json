@@ -63,7 +63,7 @@
 		"badge.background": "#222A34",
 		"progressBar.background": "#CED4DE",
 		// LIST AND TREES
-		"list.activeSelectionBackground": "#161A22",
+		"list.activeSelectionBackground": "#36415266",
 		"list.activeSelectionForeground": "#CED4DE",
 		"list.activeSelectionIconForeground": "#CED4DE",
 		"list.inactiveSelectionIconForeground": "#94A1B7",
@@ -72,7 +72,7 @@
 		"list.focusOutline": "#00000000",
 		"list.focusAndSelectionOutline": "#00000000",
 		"list.highlightForeground": "#C4B5FD",
-		"list.hoverBackground": "#12151C",
+		"list.hoverBackground": "#36415266", // Change the color of every list item in VS Code, not the sidebar
 		"list.inactiveSelectionBackground": "#161A22",
 		"list.inactiveSelectionForeground": "#CED4DE",
 		"list.inactiveFocusBackground": "#36415266",
@@ -102,7 +102,7 @@
 		// SIDEBAR
 		"sideBarActivityBarTop.border": "#00000000", // BORDER
 		"sideBar.background": "#000",
-		"sideBar.foreground": "#94A1B7",
+		"sideBar.foreground": "#B2BDCC",
 		"sideBar.border": "#12151C",
 		"sideBarTitle.foreground": "#CED4DE",
 		"sideBarSectionHeader.background": "#000",
@@ -148,12 +148,12 @@
 		"editorLineNumber.activeForeground": "#CED4DE",
 		"editorCursor.background": "#000",
 		"editorCursor.foreground": "#FFCE6B",
-		"editor.selectionBackground": "#2D3643",
+		"editor.selectionBackground": "#29313D",
 		"editor.wordHighlightBackground": "#364152a6",
-		"editor.wordHighlightStrongBackground": "#42587BCC",
+		"editor.wordHighlightStrongBackground": "#42587Bb3",
 		"editor.findMatchBackground": "#364152a6",
 		"editor.findMatchHighlightBackground": "#36415260",
-		"editor.lineHighlightBackground": "#0F1218",
+		"editor.lineHighlightBackground": "#161A22",
 		"editor.lineHighlightBorder": "#00000000",
 		"editorWatermark.foreground": "#94A1B7",
 		"editorWhitespace.foreground": "#222A34",
@@ -175,6 +175,7 @@
 		"editorWarning.foreground": "#BA5C26",
 		"editorInfo.foreground": "#3F72AB",
 		"editorInlayHint.background": "#161A22",
+		"editorUnnecessaryCode.opacity": "#0000008C",
 		// EDITOR WIDGET
 		"editorWidget.background": "#161A22",
 		"editorWidget.foreground": "#CED4DE",
@@ -226,17 +227,19 @@
 				"comment string",
 				"comment punctuation.definition",
 				"comment punctuation",
-				"comment text"
+				"comment text",
 			],
 			"settings": {
-				"foreground": "#364152"
+				"foreground": "#5A6C87"
 			}
 		},
 		{
 			"name": "JSDoc storage type",
-			"scope": "comment storage.type",
+			"scope": [
+				"comment storage.type",
+			],
 			"settings": {
-				"foreground": "#364152"
+				"foreground": "#B2BDCC"
 			}
 		},
 		{
@@ -997,15 +1000,15 @@
 				"punctuation.definition.group.begin.css",
 				"punctuation.definition.group.end.css",
 				"punctuation.definition.string.end.html source.css",
-				"punctuation.definition.block",
 				"punctuation.definition.parameters.begin",
 				"punctuation.definition.parameters.end",
 				"punctuation.separator.parameter",
+				"punctuation.definition.block", // E.g. The "@" in "@keyframes"
 				"punctuation.accessor",
 				"punctuation.terminator"
 			],
 			"settings": {
-				"foreground": "#5E6E8D"
+				"foreground": "#B2BDCC"
 			}
 		},
 		{
@@ -1019,7 +1022,7 @@
 			"name": "Comment start / end",
 			"scope": "punctuation.definition.comment",
 			"settings": {
-				"foreground": "#364152"
+				"foreground": "#5A6C87"
 			}
 		},
 		{
@@ -1437,7 +1440,7 @@
 				"comment support.class"
 			],
 			"settings": {
-				"foreground": "#364152"
+				"foreground": "#5A6C87"
 			}
 		},
 		{
