@@ -1,6 +1,7 @@
 {
   "name": "oled-minimal",
   "displayName": "OLED Minimal",
+  "icon": "assets/icon.png",
   "description": "A minimal theme designed for OLED screens",
   "version": "1.0.2",
   "publisher": "d4-n1",
